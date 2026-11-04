@@ -1,0 +1,1 @@
+Save your portrait in this folder as profile.jpg. The website references assets/profile.jpg.
