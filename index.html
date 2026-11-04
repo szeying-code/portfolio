@@ -3,114 +3,100 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sze Ying's data science, machine learning and analytics portfolio.">
-  <title>Sze Ying | Data Science & Analytics</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta name="description" content="Portfolio of Sze Ying Choong — data science, actuarial pricing and statistical modelling.">
+  <meta name="theme-color" content="#101827">
+  <title>Sze Ying Choong | Data Science & Pricing</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#home">SY<span>.</span></a>
-    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <a class="brand" href="#home" aria-label="Sze Ying Choong home">S<span>.</span>Y.</a>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
     <nav class="nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#projects">Projects</a><a href="#experience">Experience</a>
-      <a href="#skills">Skills</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Contact</a>
+      <a href="#about">About</a><a href="#experience">Experience</a>
+      <a href="#education">Education</a><a href="#research">Research</a>
+      <a href="#skills">Skills</a><a class="nav-cta" href="#contact">Contact</a>
     </nav>
   </header>
 
   <main>
     <section class="hero section" id="home">
       <div class="hero-copy">
-        <p class="eyebrow"><span class="eyebrow-dot"></span> DATA SCIENCE · ANALYTICS · ACTUARIAL</p>
-        <h1>Turning data into<br><span class="gradient-text">meaningful decisions.</span></h1>
-        <p class="hero-lede">Hi, I'm <strong>Sze Ying</strong> — an actuarial and data science professional interested in statistical learning, predictive modelling and solving practical business problems with data.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#projects">Explore my projects <span>↗</span></a>
-          <a class="button button-secondary" href="https://szeying-code.github.io/resume/" target="_blank" rel="noreferrer">View my résumé</a>
+        <p class="eyebrow">DATA SCIENCE · ACTUARIAL PRICING · ANALYTICS</p>
+        <h1>Turning complex data<br>into <span>clear decisions.</span></h1>
+        <p class="lead">I'm Sze Ying Choong, a data science postgraduate with professional experience in product pricing and an actuarial foundation. I enjoy applying statistical thinking, programming and analytical problem-solving to real-world questions.</p>
+        <div class="actions">
+          <a class="button primary" href="#experience">Explore my profile</a>
+          <a class="button secondary" href="https://szeying-code.github.io/resume/" target="_blank" rel="noreferrer">View latest résumé ↗</a>
         </div>
-        <div class="hero-meta"><span>Based in the UK</span><i></i><span>MSc Data Science, University of Nottingham</span></div>
+        <div class="hero-meta"><span>Based in the UK</span><span>Open to data & analytics opportunities</span></div>
       </div>
-      <div class="portrait-wrap">
-        <div class="portrait-glow"></div>
-        <img class="portrait" src="assets/profile.jpg" alt="Portrait of Sze Ying" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
-        <div class="portrait-placeholder" aria-label="Profile photo placeholder">SY</div>
-        <div class="portrait-note"><span class="note-icon">✳</span><span><strong>Curious by nature</strong><small>Analytical by training</small></span></div>
+      <div class="hero-card" aria-label="Professional focus">
+        <div class="orb"></div>
+        <p class="card-label">MY FOCUS</p>
+        <h2>Data with<br><em>purpose.</em></h2>
+        <ul><li>Statistical modelling</li><li>Machine learning</li><li>Pricing analytics</li><li>Research & uncertainty</li></ul>
+        <div class="card-index">01 / 04</div>
       </div>
-      <div class="hero-index">01 / PORTFOLIO</div>
     </section>
 
-    <section class="section about-section" id="about">
-      <div class="section-heading"><p class="eyebrow">A LITTLE ABOUT ME</p><h2>Where actuarial thinking<br>meets <span class="gradient-text">data science.</span></h2></div>
-      <div class="about-grid">
-        <p class="about-lede">I bring together a foundation in actuarial studies, professional experience in insurance pricing, and postgraduate training in data science.</p>
-        <div class="about-detail"><p>My interests include machine learning, statistical modelling, model uncertainty and communicating analytical findings clearly. I enjoy working across the full problem-solving process — from understanding the question and preparing data to evaluating models and explaining what the results mean.</p><p>This portfolio is a home for selected academic and applied projects, alongside my professional background.</p></div>
+    <section class="section intro" id="about">
+      <div class="section-heading"><p class="eyebrow">01 — ABOUT</p><h2>Analytical by nature.<br><span>Curious by design.</span></h2></div>
+      <div class="section-body">
+        <p>My background combines actuarial practice, product pricing and postgraduate data science. Through these experiences, I have developed an interest in using quantitative methods to understand patterns, assess uncertainty and support evidence-based decisions.</p>
+        <p>I bring together business context and technical analysis, with experience across insurance pricing and academic research. I am particularly interested in data science, statistical learning and the practical value of robust modelling.</p>
       </div>
-      <div class="stat-row">
-        <div><strong>2 years</strong><span>Insurance pricing experience*</span></div>
-        <div><strong>MSc</strong><span>Data Science · Nottingham</span></div>
-        <div><strong>BSc</strong><span>Actuarial Studies · Sunway</span></div>
-      </div>
-      <p class="fine-print">*Experience duration as described in the portfolio brief. Please update if your résumé states a different duration.</p>
     </section>
 
-    <section class="section projects-section" id="projects">
-      <div class="section-heading section-heading-row"><div><p class="eyebrow">SELECTED WORK</p><h2>Projects & <span class="gradient-text">research.</span></h2></div><span class="section-count">01 — FEATURED</span></div>
-      <article class="project-feature">
-        <div class="project-visual">
-          <div class="visual-top"><span>RESEARCH PROJECT</span><span>01 / 01</span></div>
-          <div class="visual-orbit orbit-one"></div><div class="visual-orbit orbit-two"></div>
-          <div class="visual-center"><span>AG</span><small>CONFORMAL<br>PREDICTION</small></div>
-          <div class="visual-caption">GEOMETRY × UNCERTAINTY × MACHINE LEARNING</div>
-        </div>
-        <div class="project-content">
-          <p class="eyebrow">MSc DISSERTATION</p>
-          <h3>Adaptive Geodesic<br>Conformal Prediction</h3>
-          <p class="project-summary">A research project exploring adaptive conformal prediction through geodesic structure. The work sits at the intersection of uncertainty quantification, geometry and machine learning.</p>
-          <div class="tag-list"><span>Conformal prediction</span><span>Machine learning</span><span>Statistical methods</span><span>Research</span></div>
-          <div class="project-links"><a href="mailto:YOUR_EMAIL@example.com?subject=Question%20about%20your%20dissertation">Ask about this project ↗</a></div>
-        </div>
-      </article>
-      <p class="project-note">Add your dissertation abstract, dataset description, methodology, results, GitHub repository and report link when ready. Avoid publishing confidential or unpublished university material without permission.</p>
-      <div class="project-placeholder"><div class="placeholder-number">02</div><div><p class="eyebrow">NEXT PROJECT</p><h3>Your next project goes here.</h3><p>Add a project card by duplicating this section in <code>index.html</code>. Include the problem, your approach, key result and code/demo link.</p></div><span class="coming-soon">COMING SOON</span></div>
-    </section>
-
-    <section class="section experience-section" id="experience">
-      <div class="section-heading"><p class="eyebrow">CAREER JOURNEY</p><h2>Professional <span class="gradient-text">experience.</span></h2></div>
+    <section class="section dark-section" id="experience">
+      <div class="section-heading"><p class="eyebrow">02 — EXPERIENCE</p><h2>Where I've<br><span>made an impact.</span></h2></div>
       <div class="timeline">
-        <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">INSURANCE · PRICING</div><div class="timeline-body"><h3>Great Eastern</h3><p class="role">Insurance pricing experience</p><p>Contributed to insurance pricing work, applying quantitative and analytical thinking in a commercial insurance environment.</p></div><span class="timeline-index">01</span></article>
-        <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-date">INSURANCE · PRICING</div><div class="timeline-body"><h3>Prudential</h3><p class="role">Insurance experience</p><p>Built industry context in insurance and developed an understanding of how analytical work supports business and pricing decisions.</p></div><span class="timeline-index">02</span></article>
+        <article class="timeline-item">
+          <div class="timeline-date">JUN 2023 — AUG 2025</div>
+          <div><h3>Associate Product Pricing</h3><p class="company">Great Eastern</p><p>Worked in product pricing within the insurance sector, building on actuarial training and quantitative analysis to support pricing-related work.</p></div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">DEC 2022 — MAR 2023</div>
+          <div><h3>Actuarial Industrial Trainee</h3><p class="company">Prudential</p><p>Gained practical exposure to actuarial work in the insurance industry and developed a foundation in professional quantitative analysis.</p></div>
+        </article>
       </div>
-      <p class="fine-print">Role titles, dates and responsibilities are intentionally kept general here. Replace these summaries with the exact wording from your résumé.</p>
     </section>
 
-    <section class="section skills-section" id="skills">
-      <div class="section-heading"><p class="eyebrow">TOOLKIT</p><h2>Skills & <span class="gradient-text">interests.</span></h2></div>
+    <section class="section" id="education">
+      <div class="section-heading"><p class="eyebrow">03 — EDUCATION</p><h2>Learning that<br><span>moves me forward.</span></h2></div>
+      <div class="education-card">
+        <div class="edu-mark">U</div>
+        <div><p class="eyebrow">2025 — 2026</p><h3>MSc Data Science</h3><p class="company">University of Nottingham</p><p>Postgraduate study focused on developing advanced data science knowledge and analytical skills.</p></div>
+        <span class="edu-tag">POSTGRADUATE</span>
+      </div>
+    </section>
+
+    <section class="section research-section" id="research">
+      <div class="section-heading"><p class="eyebrow">04 — RESEARCH</p><h2>Exploring the<br><span>shape of uncertainty.</span></h2></div>
+      <div class="research-content">
+        <div class="research-number">R<span>01</span></div>
+        <div><p class="eyebrow">ACADEMIC RESEARCH</p><h3>Spherical harmonic modelling & adaptive geodesic conformal prediction</h3><p>Research interests include spherical harmonic modelling and adaptive geodesic conformal prediction — methods connected to modelling structured data and quantifying predictive uncertainty.</p><p class="note">For the full research description, methods and results, please refer to the latest résumé.</p></div>
+      </div>
+    </section>
+
+    <section class="section dark-section" id="skills">
+      <div class="section-heading"><p class="eyebrow">05 — TOOLKIT</p><h2>Tools for<br><span>better questions.</span></h2></div>
       <div class="skills-grid">
-        <div class="skill-card"><span class="skill-icon">⌘</span><h3>Programming & data</h3><div class="skill-pills"><span>Python</span><span>SQL</span><span>R</span><span>SAS</span></div></div>
-        <div class="skill-card"><span class="skill-icon">⌁</span><h3>Data science</h3><div class="skill-pills"><span>Machine learning</span><span>Predictive modelling</span><span>Statistical analysis</span></div></div>
-        <div class="skill-card"><span class="skill-icon">◫</span><h3>Domain knowledge</h3><div class="skill-pills"><span>Actuarial science</span><span>Insurance pricing</span><span>Risk analysis</span></div></div>
+        <article><p class="eyebrow">PROGRAMMING & DATA</p><h3>Technical skills</h3><div class="tags"><span>Python</span><span>R</span><span>SAS</span><span>SQL</span><span>Excel VBA</span></div></article>
+        <article><p class="eyebrow">ANALYTICS</p><h3>Methods & concepts</h3><div class="tags"><span>Machine learning</span><span>Statistical modelling</span><span>Regression</span><span>Time series</span><span>Uncertainty quantification</span></div></article>
+        <article><p class="eyebrow">DOMAIN</p><h3>Applied knowledge</h3><div class="tags"><span>Actuarial analysis</span><span>Insurance pricing</span><span>Product pricing</span><span>Research</span></div></article>
       </div>
-      <p class="fine-print">Keep only tools and methods you can confidently discuss in an interview. Add libraries and platforms you have actually used (for example, pandas, scikit-learn, Git or Power BI) if applicable.</p>
+      <p class="small-note">This skills list reflects the information currently available from the résumé summary. See the résumé for the complete and most precise list.</p>
     </section>
 
-    <section class="section education-section" id="education">
-      <div class="section-heading"><p class="eyebrow">LEARNING</p><h2>Education & <span class="gradient-text">foundation.</span></h2></div>
-      <div class="education-list">
-        <article><div class="edu-year">POSTGRADUATE</div><div><h3>University of Nottingham</h3><p>MSc Data Science</p><small>Research focus: Adaptive Geodesic Conformal Prediction</small></div><span class="edu-arrow">↗</span></article>
-        <article><div class="edu-year">UNDERGRADUATE</div><div><h3>Sunway University</h3><p>Actuarial Studies</p><small>Quantitative foundation in actuarial and statistical thinking</small></div><span class="edu-arrow">↗</span></article>
-      </div>
-    </section>
-
-    <section class="contact-section section" id="contact">
-      <p class="eyebrow">LET'S CONNECT</p><h2>Have a data challenge<br>or opportunity in mind?</h2>
-      <p>I'm happy to connect about data science, analytics, research and opportunities to learn and contribute.</p>
-      <div class="contact-actions"><a class="button button-light" href="mailto:YOUR_EMAIL@example.com">Email me ↗</a><a class="contact-link" href="https://github.com/szeying-code" target="_blank" rel="noreferrer">GitHub ↗</a><a class="contact-link" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+    <section class="section contact" id="contact">
+      <p class="eyebrow">06 — GET IN TOUCH</p><h2>Let's make data<br><span>matter.</span></h2>
+      <p>Interested in data science, pricing, analytics or research opportunities? I'd be happy to connect.</p>
+      <a class="button primary" href="https://szeying-code.github.io/resume/" target="_blank" rel="noreferrer">View résumé ↗</a>
+      <div class="contact-links"><a href="https://github.com/szeying-code" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://szeying-code.github.io/resume/" target="_blank" rel="noreferrer">Résumé ↗</a></div>
     </section>
   </main>
-
-  <footer><a class="brand" href="#home">SY<span>.</span></a><span>© <span id="year"></span> Sze Ying · Built with curiosity and code.</span><a href="#home">Back to top ↑</a></footer>
+  <footer><span>© <span id="year"></span> Sze Ying Choong</span><span>Built with clarity & curiosity.</span><a href="#home">Back to top ↑</a></footer>
   <script src="script.js"></script>
 </body>
 </html>
