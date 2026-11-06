@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Profile photo tool</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body class="tool">
+<main class="tool-card">
+ <a href="index.html">Back to portfolio</a>
+ <h1>Profile photo</h1>
+ <p>Choose a photo, drag it into position and zoom, then download <b>profile.jpg</b>. Your photo stays in your browser; nothing is uploaded here.</p>
+ <label class="pick" id="pick">Choose or drop a photo<input type="file" id="file" accept="image/*"></label>
+ <div class="stage"><canvas id="c" width="480" height="480" aria-label="Photo preview. Drag to reposition."></canvas></div>
+ <label class="zoom">Zoom <input type="range" id="zoom" min="1" max="3" step="0.01" value="1"></label>
+ <button class="btn p" id="dl" type="button" disabled>Download profile.jpg</button>
+ <ol class="steps">
+  <li>Upload the downloaded <b>profile.jpg</b> to the root of your GitHub repository, next to index.html.</li>
+  <li>Wait a minute, then refresh your portfolio. The photo appears in the About section.</li>
+ </ol>
+</main>
+<script src="photo.js"></script>
+</body>
+</html>

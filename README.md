@@ -1,20 +1,17 @@
-# Sze Ying Choong — Portfolio
+# Choong Sze Ying — Portfolio
 
-Responsive static portfolio updated against the four-page résumé supplied in this conversation.
+Static portfolio. Open `index.html` in a browser to preview.
 
-## Preview locally
-Open `index.html` in a browser. No build tools or dependencies are required.
+- `index.html` — content and page structure
+- `styles.css` — colours (see `:root` at the top), fonts and layout
+- `script.js` — menu, scroll highlight, expandable lists, copy email, globe
+- `photo.html` + `photo.js` — tool to prepare your profile photo (see below)
 
-## Publish to GitHub Pages
-1. Extract this ZIP.
-2. Upload the contents of this folder to the root of `szeying-code/portfolio` (not the enclosing folder).
-3. Commit the changes to the branch configured for GitHub Pages.
-4. Check Settings → Pages for the publishing branch and folder.
+## Publish on GitHub Pages
+Upload all files to the root of the repository, then check Settings → Pages.
 
-## Content source
-The profile, roles, education, research, skills, languages, honours and activities are based on the supplied résumé. Contact: choongszeying@gmail.com. LinkedIn: https://www.linkedin.com/in/szeying1122. Résumé: https://szeying-code.github.io/resume/
-
-## Files
-- `index.html` — portfolio content and page structure
-- `styles.css` — responsive styling
-- `script.js` — mobile navigation and footer year
+## Adding your profile photo
+1. Open `photo.html` (on your site at /photo.html, or double-click it locally).
+2. Choose a photo, drag to position, zoom, then click Download profile.jpg.
+3. Upload `profile.jpg` to the root of the repository, next to `index.html`.
+Until `profile.jpg` exists, the About section shows your initials.

@@ -1,105 +1,139 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portfolio of Sze Ying Choong — data science, actuarial pricing and statistical modelling.">
-  <meta name="theme-color" content="#101827">
-  <title>Sze Ying Choong | Data Science & Pricing</title>
-  <link rel="stylesheet" href="styles.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Choong Sze Ying — data scientist with an actuarial pricing background. MSc Data Science, University of Nottingham.">
+<meta name="theme-color" content="#021b2a">
+<title>Choong Sze Ying | Data Science &amp; Pricing Analytics</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#home" aria-label="Sze Ying Choong home">S<span>.</span>Y.</a>
-    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="#about">About</a><a href="#experience">Experience</a>
-      <a href="#education">Education</a><a href="#research">Research</a>
-      <a href="#skills">Skills</a><a href="#activities">Activities</a><a class="nav-cta" href="#contact">Contact</a>
-    </nav>
-  </header>
+<header><div class="wrap">
+<a class="brand" href="#top" aria-label="Choong Sze Ying, home">Sze Ying</a>
+<button class="menu" id="menu" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Main"><a href="#about">About</a><a href="#experience">Experience</a><a href="#research">Research</a><a href="#education">Education</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+</div></header>
 
-  <main>
-    <section class="hero section" id="home">
-      <div class="hero-copy">
-        <p class="eyebrow">DATA SCIENCE · ACTUARIAL PRICING · ANALYTICS</p>
-        <h1>Turning complex data<br>into <span>clear decisions.</span></h1>
-        <p class="lead">I’m Sze Ying Choong, an MSc Data Science candidate at the University of Nottingham, with two years of general insurance product pricing experience. I work with Python, SAS and Excel on data preprocessing, statistical modelling, machine learning and automation. I’m interested in data analytics, data science, business analytics and risk analytics.</p>
-        <div class="actions">
-          <a class="button primary" href="#experience">Explore my profile</a>
-          <a class="button secondary" href="https://szeying-code.github.io/resume/" target="_blank" rel="noreferrer">View latest résumé ↗</a>
-        </div>
-        <div class="hero-meta"><span>Based in the UK</span><span>Open to data & analytics opportunities</span></div>
-      </div>
-      <div class="hero-card" aria-label="Professional focus">
-        <div class="orb"></div>
-        <p class="card-label">MY FOCUS</p>
-        <h2>Data with<br><em>purpose.</em></h2>
-        <ul><li>Statistical modelling</li><li>Machine learning</li><li>Pricing analytics</li><li>Research & uncertainty</li></ul>
-        <div class="card-index">01 / 04</div>
-      </div>
-    </section>
+<main id="top">
+<div class="hero"><div class="wrap">
+ <div>
+  <h1>Choong Sze Ying turns insurance data into <em>sound</em> decisions.</h1>
+  <p class="lead">Data scientist with an actuarial pricing background. I'm finishing an MSc in Data Science at the University of Nottingham, after two years pricing general insurance products.</p>
+  <div class="btns"><a class="btn p" href="#experience">See my experience</a><a class="btn" href="https://szeying-code.github.io/resume/" target="_blank" rel="noreferrer">Read my résumé</a></div>
+  <div class="facts"><span><b>Python · SAS · Excel</b></span><span>Looking for data, business and risk analytics roles</span></div>
+ </div>
+ <figure class="globe"><canvas id="globe" aria-label="Rotating globe where brighter dots show higher prediction uncertainty" role="img"></canvas>
+ <figcaption>Drag to rotate. Amber dots show higher uncertainty.</figcaption></figure>
+</div></div>
 
-    <section class="section intro" id="about">
-      <div class="section-heading"><p class="eyebrow">01 — ABOUT</p><h2>Analytical by nature.<br><span>Curious by design.</span></h2></div>
-      <div class="section-body">
-        <p>My background combines actuarial practice, general insurance product pricing and postgraduate data science. I use quantitative methods to understand patterns, assess uncertainty and support evidence-based decisions.</p><p>I am looking for roles in data analytics, data science, business analytics and risk analytics.</p><p class="small-note">Languages: English and Mandarin (speaking and writing), Malay and Cantonese.</p>
-      </div>
-    </section>
+<section id="about"><div class="wrap grid"><h2>About</h2>
+<div class="about">
+ <div class="about-top">
+  <div class="avatar"><span aria-hidden="true">SY</span><img src="profile.jpg" alt="Choong Sze Ying" onerror="this.remove()"></div>
+  <div>
+   <p>I'm an MSc Data Science candidate at the University of Nottingham with two years of general insurance product pricing behind me.</p>
+   <p>I work in Python, SAS and Excel on data preprocessing, statistical modelling, machine learning and automation. I'm looking for roles in data analytics, data science, business analytics and risk analytics.</p>
+  </div>
+ </div>
+ <div class="langs">Languages: English and Mandarin (speaking and writing), Malay and Cantonese.</div>
+</div></div></section>
 
-    <section class="section dark-section" id="experience">
-      <div class="section-heading"><p class="eyebrow">02 — EXPERIENCE</p><h2>Where I've<br><span>made an impact.</span></h2></div>
-      <div class="timeline">
-        <article class="timeline-item">
-          <div class="timeline-date">JUN 2023 — AUG 2025</div>
-          <div><h3>Associate Product Pricing</h3><p class="company">Great Eastern General Malaysia · Kuala Lumpur · Full-time</p><ul><li>Cleaned and structured claims, premiums and customer-demographic datasets in SAS and Excel to maintain accurate pricing inputs.</li><li>Automated data validation, deviation checks and claims tracking, reducing manual errors by 10% and speeding up regulatory reporting.</li><li>Automated recurring monthly regulatory reports with Excel VBA, saving over an hour per reporting cycle.</li><li>Analysed post-launch model performance and claims trends to inform future pricing.</li><li>Worked with underwriting and finance on premium adjustments and product enhancements.</li><li>Prepared executive presentations and Bank Negara Malaysia reports, translating actuarial concepts into trend charts and portfolio risk views.</li><li>Identified data anomalies and unusual claims patterns through exploratory analysis.</li><li>Built dynamic Excel dashboards for product profitability and portfolio performance, including an experience study on PA and health products.</li></ul></div>
-        </article>
-        <article class="timeline-item">
-          <div class="timeline-date">DEC 2022 — MAR 2023</div>
-          <div><h3>Actuarial Industrial Trainee</h3><p class="company">Prudential Assurance Malaysia Berhad · Kuala Lumpur · Reinsurance Department · Internship</p><ul><li>Investigated reinsurer data queries through data checking and problem-solving.</li><li>Checked exposure for agency trips to keep risks within catastrophe limits.</li><li>Built an Excel template for reinsurance premium calculations for two new products.</li><li>Participated in user acceptance testing and data validation.</li></ul></div>
-        </article>
-      </div>
-    </section>
+<section id="experience" class="alt"><div class="wrap grid"><h2>Experience</h2>
+<div>
+ <article class="job">
+  <div class="when">Jun 2023 – Aug 2025 · Full-time</div>
+  <h3>Associate Product Pricing</h3>
+  <p class="org">Great Eastern General Malaysia, Kuala Lumpur</p>
+  <ul class="pts collapsible">
+   <li>Cleaned and structured large insurance datasets (claims, premiums, customer demographics) in SAS and Excel to keep pricing inputs accurate.</li>
+   <li>Automated data validation, including deviation checks and claim tracking, cutting manual errors by 10% and speeding up regulatory reporting.</li>
+   <li>Automated recurring monthly regulatory reports with Excel VBA, saving over an hour per reporting cycle.</li>
+   <li>Ran post-launch analyses of model performance and claims trends to refine future pricing.</li>
+   <li>Worked with underwriting and finance to turn data insights into premium adjustments and product enhancements.</li>
+   <li>Prepared executive presentations and BNM reports, turning actuarial concepts into trend charts and portfolio risk views.</li>
+   <li>Spotted data anomalies and unusual claims patterns through exploratory analysis.</li>
+   <li>Built dynamic Excel dashboards to track product profitability and portfolio performance, including an experience study on PA and health products.</li>
+  </ul>
+  <div class="chips"><span>SAS</span><span>Python</span><span>Advanced Excel</span><span>Excel VBA</span><span>Statistical modelling</span><span>Regression</span><span>Data visualisation</span><span>Regulatory compliance</span><span>Stakeholder management</span></div>
+ </article>
+ <article class="job">
+  <div class="when">Dec 2022 – Mar 2023 · Internship</div>
+  <h3>Actuarial Industrial Training, Actuarial Servicing</h3>
+  <p class="org">Prudential Assurance Malaysia Berhad, Kuala Lumpur · Reinsurance Department</p>
+  <ul class="pts">
+   <li>Investigated data queries from reinsurers using data checking and problem solving.</li>
+   <li>Checked exposure for agency trips to keep risks within catastrophe limits.</li>
+   <li>Built an Excel template for reinsurance premium calculations for two new products.</li>
+   <li>Took part in user acceptance testing and data validation.</li>
+  </ul>
+ </article>
+</div></div></section>
 
-    <section class="section" id="education">
-      <div class="section-heading"><p class="eyebrow">03 — EDUCATION</p><h2>Learning that<br><span>moves me forward.</span></h2></div>
-      <div class="education-card">
-        <div class="edu-mark">U</div>
-        <div><p class="eyebrow">2025 — 2026</p><h3>MSc Data Science</h3><p class="company">University of Nottingham · United Kingdom · Sep 2025 – Sep 2026</p><p>Selected modules: Statistical Modelling (86%), Machine Learning (74%), Time Series and Forecasting (74%), Data Visualisation (65%), Databases, Interfaces and Software (64%) and Programming (63%).</p></div>
-        <span class="edu-tag">POSTGRADUATE</span>
-      </div>
-    </section>
+<section id="research" class="research"><div class="wrap grid"><h2>Research</h2>
+<div class="box">
+ <h3>Where are predictions hardest on a sphere?</h3>
+ <p class="intro">MSc research project: physics-informed and geometry-aware machine learning for scalar-field reconstruction and uncertainty quantification on a sphere.</p>
+ <ul class="pts">
+  <li>Built a Python spherical harmonic modelling framework to reconstruct global temperature data.</li>
+  <li>Studied model accuracy, prediction uncertainty and where predictions are hardest across the globe.</li>
+  <li>Implemented adaptive geodesic conformal prediction to quantify spatially varying uncertainty.</li>
+  <li>Tested robustness across spherical harmonic degrees and hyperparameter settings, and analysed reconstruction errors.</li>
+ </ul>
+</div></div></section>
 
-    <section class="section research-section" id="research">
-      <div class="section-heading"><p class="eyebrow">04 — RESEARCH</p><h2>Exploring the<br><span>shape of uncertainty.</span></h2></div>
-      <div class="research-content">
-        <div class="research-number">R<span>01</span></div>
-        <div><p class="eyebrow">ACADEMIC RESEARCH</p><h3>Spherical harmonic modelling & adaptive geodesic conformal prediction</h3><p>Physics-informed and geometry-aware machine learning for scalar-field reconstruction and uncertainty quantification on a sphere.</p><ul><li>Built a Python spherical harmonic modelling framework to reconstruct global temperature data.</li><li>Studied model accuracy, prediction uncertainty and where predictions are hardest across the globe.</li><li>Implemented adaptive geodesic conformal prediction to quantify spatially varying uncertainty.</li><li>Tested robustness across spherical harmonic degrees and hyperparameter settings, and analysed reconstruction errors.</li></ul></div>
-      </div>
-    </section>
+<section id="education"><div class="wrap grid"><h2>Education</h2>
+<div>
+ <div class="edu"><div class="when">Sep 2025 – Sep 2026</div><div>
+  <h3>MSc Data Science <span class="tag">Postgraduate</span></h3>
+  <p class="org">University of Nottingham, United Kingdom</p>
+  <p>Selected modules: Statistical Modelling (86%), Machine Learning (74%), Time Series and Forecasting (74%), Data Visualisation (65%), Databases, Interfaces and Software (64%), Programming (63%).</p></div></div>
+ <div class="edu"><div class="when">Mar 2020 – Mar 2023</div><div>
+  <h3>Bachelor of Actuarial Studies</h3>
+  <p class="org">Sunway University, Selangor · CGPA 3.2</p>
+  <p>Python programming, R for statistics, probability and statistics, machine learning basics, regression analysis, statistical modelling.</p></div></div>
+ <div class="edu"><div class="when">Mar 2019 – Dec 2019</div><div>
+  <h3>Australian Matriculation</h3><p class="org">Sunway College, Selangor · ATAR 89.5%</p></div></div>
+ <div class="edu"><div class="when">Jan 2014 – Dec 2018</div><div>
+  <h3>Sijil Pelajaran Malaysia (SPM)</h3><p class="org">Wesley Methodist School Ipoh, Perak · Science stream, 8A 2B</p></div></div>
+</div></div></section>
 
-    <section class="section" id="education-more"><div class="section-heading"><p class="eyebrow">ACADEMIC BACKGROUND</p><h2>Earlier foundations.</h2></div><div class="timeline"><article class="timeline-item"><div class="timeline-date">MAR 2020 — MAR 2023</div><div><h3>Bachelor of Actuarial Studies</h3><p class="company">Sunway University, Selangor · CGPA 3.2</p><p>Python programming, R for statistics, probability and statistics, machine learning basics, regression analysis and statistical modelling.</p></div></article><article class="timeline-item"><div class="timeline-date">MAR 2019 — DEC 2019</div><div><h3>Australian Matriculation</h3><p class="company">Sunway College, Selangor · ATAR 89.5%</p></div></article><article class="timeline-item"><div class="timeline-date">JAN 2014 — DEC 2018</div><div><h3>Sijil Pelajaran Malaysia (SPM)</h3><p class="company">Wesley Methodist School Ipoh, Perak · Science stream · 8A 2B</p></div></article></div></section>
+<section id="skills" class="alt"><div class="wrap grid"><h2>Skills</h2>
+<div>
+ <div class="skills">
+  <div><h3>Programming and data</h3><div class="chips"><span>Python</span><span>R</span><span>SAS</span><span>Excel VBA</span><span>SQL and database fundamentals</span></div></div>
+  <div><h3>Data science and statistics</h3><div class="chips"><span>Machine learning</span><span>Statistical modelling</span><span>Regression</span><span>Time series</span><span>Predictive analytics</span><span>Data preprocessing</span><span>Uncertainty quantification</span></div></div>
+  <div><h3>Visualisation</h3><div class="chips"><span>Matplotlib</span><span>Seaborn</span><span>Excel dashboards</span></div></div>
+  <div><h3>Reporting</h3><div class="chips"><span>Microsoft Excel, Word and PowerPoint</span><span>Data reporting</span><span>Technical documentation</span></div></div>
+ </div>
+ <div class="honours"><h3>Certificates and honours</h3>
+  <ul class="pts">
+   <li>SAS Programming 9.4 (LinkedIn)</li>
+   <li>CB1 and CS1 exemptions, Institute and Faculty of Actuaries</li>
+   <li>Jeffrey Cheah ACE Scholarship, 2020–2023</li>
+   <li>Top 15% of students in WACE, 2019</li>
+   <li>Overall best student, Form 4, 2017</li>
+  </ul></div>
+</div></div></section>
 
-    <section class="section dark-section" id="skills">
-      <div class="section-heading"><p class="eyebrow">05 — TOOLKIT</p><h2>Tools for<br><span>better questions.</span></h2></div>
-      <div class="skills-grid">
-        <article><p class="eyebrow">PROGRAMMING & DATA</p><h3>Technical skills</h3><div class="tags"><span>Python</span><span>R</span><span>SAS</span><span>SQL</span><span>Excel VBA</span></div></article>
-        <article><p class="eyebrow">ANALYTICS</p><h3>Methods & concepts</h3><div class="tags"><span>Machine learning</span><span>Statistical modelling</span><span>Regression</span><span>Time series</span><span>Uncertainty quantification</span></div></article>
-        <article><p class="eyebrow">VISUALISATION & REPORTING</p><h3>Communication tools</h3><div class="tags"><span>Matplotlib</span><span>Seaborn</span><span>Excel dashboards</span><span>Microsoft Word</span><span>PowerPoint</span><span>Data reporting</span><span>Technical documentation</span></div></article><article><p class="eyebrow">DOMAIN</p><h3>Applied knowledge</h3><div class="tags"><span>Insurance pricing</span><span>Predictive analytics</span><span>Data preprocessing</span><span>Regulatory compliance</span><span>Stakeholder management</span></div></article>
-      </div>
-      <p class="small-note">Certificates and honours: SAS Programming 9.4 (LinkedIn); CB1 and CS1 exemptions, Institute and Faculty of Actuaries; Jeffrey Cheah ACE Scholarship (2020–2023); Top 15% of students in WACE (2019); Overall Best Student, Form 4 (2017).</p>
-    </section>
+<section id="activities"><div class="wrap grid"><h2>Activities</h2>
+<div>
+ <div class="act"><div class="when">Mar 2022 – Mar 2023</div><div><h3>Design Department Executive Committee</h3><p class="org">Sunway Project for Asian and International Relations</p><p>Handled public relations, poster design, promotion and marketing.</p></div></div>
+ <div class="act"><div class="when">Mar 2021 – Mar 2023</div><div><h3>Programme Executive Committee</h3><p class="org">Sunway Buddhist Society</p><p>Organised club gatherings, was the contact between guest speakers and the society, and wrote event proposals and reports.</p></div></div>
+ <div class="act"><div class="when">Jan 2017 – Jul 2018</div><div><h3>Vice President</h3><p class="org">Wesley Methodist Netball Club</p><p>Led the team into the MSSD competition and planned its training routine.</p></div></div>
+</div></div></section>
 
-    <section class="section" id="activities"><div class="section-heading"><p class="eyebrow">LEADERSHIP & ACTIVITIES</p><h2>Beyond the<br><span>classroom.</span></h2></div><div class="timeline"><article class="timeline-item"><div class="timeline-date">MAR 2022 — MAR 2023</div><div><h3>Design Department Executive Committee</h3><p class="company">Sunway Project for Asian and International Relations</p><p>Handled public relations, poster design, promotion and marketing.</p></div></article><article class="timeline-item"><div class="timeline-date">MAR 2021 — MAR 2023</div><div><h3>Programme Executive Committee</h3><p class="company">Sunway Buddhist Society</p><p>Organised club gatherings, liaised with guest speakers and wrote event proposals and reports.</p></div></article><article class="timeline-item"><div class="timeline-date">JAN 2017 — JUL 2018</div><div><h3>Vice President</h3><p class="company">Wesley Methodist Netball Club</p><p>Led the team into the MSSD competition and planned its training routine.</p></div></article></div></section>
+<section id="contact" class="contact"><div class="wrap">
+ <h2>Let’s work together.</h2>
+ <p>I'm open to roles in data analytics, data science, business analytics and risk analytics.</p>
+ <div class="btns"><a class="btn p" href="mailto:choongszeying@gmail.com">Email me</a><button class="btn" id="copy" type="button">Copy email</button><a class="btn" href="https://www.linkedin.com/in/szeying1122" target="_blank" rel="noreferrer">LinkedIn</a><a class="btn" href="https://szeying-code.github.io/resume/" target="_blank" rel="noreferrer">Résumé</a><a class="btn" href="https://github.com/szeying-code" target="_blank" rel="noreferrer">GitHub</a></div>
+</div></section>
+</main>
+<footer><div class="wrap"><span>© <span id="y"></span> Choong Sze Ying</span><a href="#top">Back to top</a></div></footer>
 
-    <section class="section contact" id="contact">
-      <p class="eyebrow">06 — GET IN TOUCH</p><h2>Let's make data<br><span>matter.</span></h2>
-      <p>Interested in data science, pricing, analytics or research opportunities? I'd be happy to connect.</p>
-      <a class="button primary" href="mailto:choongszeying@gmail.com">choongszeying@gmail.com ↗</a>
-      <div class="contact-links"><a href="mailto:choongszeying@gmail.com">Email ↗</a><a href="https://www.linkedin.com/in/szeying1122" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://github.com/szeying-code" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://szeying-code.github.io/resume/" target="_blank" rel="noreferrer">Résumé ↗</a></div>
-    </section>
-  </main>
-  <footer><span>© <span id="year"></span> Sze Ying Choong</span><span>Built with clarity & curiosity.</span><a href="#home">Back to top ↑</a></footer>
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
