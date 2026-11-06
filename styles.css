@@ -17,14 +17,14 @@ nav a{color:#c3d2df;text-decoration:none;padding:4px 0;border-bottom:2px solid t
 /* hero */
 .hero{background:radial-gradient(900px 600px at 78% 45%,#0d3a55 0,var(--ink) 65%);color:#fff;padding:150px 0 90px;overflow:hidden}
 .hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:30px;align-items:center}
-.hero h1{font-family:var(--serif);font-weight:800;font-size:clamp(38px,5.2vw,66px);line-height:1.08;letter-spacing:-.02em}
+.hero h1{font-family:var(--serif);font-weight:800;font-size:clamp(28px,3.4vw,46px);line-height:1.15;letter-spacing:-.02em}
 .hero h1 em{color:var(--amber)}
 .hero p.lead{margin:26px 0 34px;color:#b7c7d6;max-width:30em}
 .btns{display:flex;flex-wrap:wrap;gap:12px}
 .btn{display:inline-block;padding:13px 22px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none;border:1.5px solid #608daa;color:#fff}
 .btn.p{background:var(--amber);border-color:var(--amber);color:var(--ink)}
 .btn:hover{transform:translateY(-2px)}
-.globe{position:relative;aspect-ratio:1;width:100%;max-width:470px;justify-self:center}
+.globe{position:relative;aspect-ratio:1;width:100%;max-width:340px;justify-self:center}
 .globe canvas{width:100%;height:100%;cursor:grab;touch-action:pan-y}.globe canvas:active{cursor:grabbing}
 .globe figcaption{position:absolute;left:0;right:0;bottom:-6px;text-align:center;font-size:12.5px;color:#7f98ae}
 .facts{display:flex;flex-wrap:wrap;gap:10px 28px;margin-top:44px;font-size:14px;color:#8fa7bb}
