@@ -15,3 +15,7 @@ Upload all files to the root of the repository, then check Settings → Pages.
 2. Choose a photo, drag to position, zoom, then click Download profile.jpg.
 3. Upload `profile.jpg` to the root of the repository, next to `index.html`.
 Until `profile.jpg` exists, the About section shows your initials.
+
+## Research and hobby sections
+- Research (in `index.html`): results from the MSc dissertation, with links that open the GitHub repo, the dissertation PDF and the slides PDF in a new tab. To change a number, edit the text and the `width:` values in the coverage chart.
+- Activities: the "Badminton, Avacado BC" entry links to the two badminton pages.

@@ -76,13 +76,32 @@
 <section id="research" class="research"><div class="wrap grid"><h2>Research</h2>
 <div class="box">
  <h3>Where are predictions hardest on a sphere?</h3>
- <p class="intro">MSc research project: physics-informed and geometry-aware machine learning for scalar-field reconstruction and uncertainty quantification on a sphere.</p>
+ <p class="intro">MSc dissertation: <em>Adaptive Geodesic Conformal Prediction for Uncertainty-Quantified Spherical Harmonic Reconstruction of Climate Fields</em>. It makes the uncertainty of a global temperature reconstruction honest in hard regions, not only on average.</p>
+ <div class="stats">
+  <div><b>3,510</b><span>cities, July 2003 data</span></div>
+  <div><b>76.7% → 94.8%</b><span>coverage in the hardest regions (target 90%)</span></div>
+  <div><b>r = 0.634</b><span>local difficulty vs true error</span></div>
+  <div><b>L = 8 to 30</b><span>harmonic degrees tested</span></div>
+ </div>
+ <figure class="cov">
+  <figcaption>Coverage by difficulty group. The dashed line is the 90% target.</figcaption>
+  <div class="cov-row"><span class="lab">Low difficulty</span><div class="bars"><div class="bar s" style="width:100%">100.0%</div><div class="bar a" style="width:91.5%">91.5%</div></div></div>
+  <div class="cov-row"><span class="lab">Medium difficulty</span><div class="bars"><div class="bar s" style="width:95.7%">95.7%</div><div class="bar a" style="width:94.9%">94.9%</div></div></div>
+  <div class="cov-row"><span class="lab">High difficulty</span><div class="bars"><div class="bar s" style="width:76.7%">76.7%</div><div class="bar a" style="width:94.8%">94.8%</div></div></div>
+  <div class="legend"><span><i class="s"></i>Standard conformal</span><span><i class="a"></i>Adaptive geodesic (proposed)</span></div>
+ </figure>
  <ul class="pts">
-  <li>Built a Python spherical harmonic modelling framework to reconstruct global temperature data.</li>
-  <li>Studied model accuracy, prediction uncertainty and where predictions are hardest across the globe.</li>
-  <li>Implemented adaptive geodesic conformal prediction to quantify spatially varying uncertainty.</li>
-  <li>Tested robustness across spherical harmonic degrees and hyperparameter settings, and analysed reconstruction errors.</li>
+  <li>Extended a spherical harmonic reconstruction of global land temperature with adaptive geodesic conformal prediction, so interval widths follow local difficulty.</li>
+  <li>Standard conformal prediction looked fine overall (90.9% coverage) but fell to 76.7% in the hardest regions. The adaptive method kept 94.8% there at a similar mean width (4.59 °C against 4.65 °C).</li>
+  <li>Estimated local difficulty with geodesic k-nearest neighbours, and tested robustness across degrees and two λ-selection criteria.</li>
+  <li>17 of the 20 highest-uncertainty cities are in the high-altitude Andes (Bolivia, Peru and northern Chile).</li>
  </ul>
+ <p class="credit">Builds on the spherical harmonic reconstruction by Will Thomas (2025).</p>
+ <div class="btns links">
+  <a class="btn p" href="https://github.com/szeying-code/msc-dissertation-portfolio" target="_blank" rel="noopener noreferrer">View code on GitHub</a>
+  <a class="btn" href="https://github.com/szeying-code/msc-dissertation-portfolio/blob/main/docs/dissertation/thesis.pdf" target="_blank" rel="noopener noreferrer">Dissertation (PDF)</a>
+  <a class="btn" href="https://github.com/szeying-code/msc-dissertation-portfolio/blob/main/docs/Full_Presentation_FINAL_2.pdf" target="_blank" rel="noopener noreferrer">Presentation slides (PDF)</a>
+ </div>
 </div></div></section>
 
 <section id="education"><div class="wrap grid"><h2>Education</h2>
@@ -105,7 +124,7 @@
 <div>
  <div class="skills">
   <div><h3>Programming and data</h3><div class="chips"><span>Python</span><span>R</span><span>SAS</span><span>Excel VBA</span><span>SQL and database fundamentals</span></div></div>
-  <div><h3>Data science and statistics</h3><div class="chips"><span>Machine learning</span><span>Statistical modelling</span><span>Regression</span><span>Time series</span><span>Predictive analytics</span><span>Data preprocessing</span><span>Uncertainty quantification</span></div></div>
+  <div><h3>Data science and statistics</h3><div class="chips"><span>Machine learning</span><span>Statistical modelling</span><span>Regression</span><span>Time series</span><span>Predictive analytics</span><span>Data preprocessing</span><span>Uncertainty quantification</span><span>Conformal prediction</span></div></div>
   <div><h3>Visualisation</h3><div class="chips"><span>Matplotlib</span><span>Seaborn</span><span>Excel dashboards</span></div></div>
   <div><h3>Reporting</h3><div class="chips"><span>Microsoft Excel, Word and PowerPoint</span><span>Data reporting</span><span>Technical documentation</span></div></div>
  </div>
@@ -124,6 +143,7 @@
  <div class="act"><div class="when">Mar 2022 – Mar 2023</div><div><h3>Design Department Executive Committee</h3><p class="org">Sunway Project for Asian and International Relations</p><p>Handled public relations, poster design, promotion and marketing.</p></div></div>
  <div class="act"><div class="when">Mar 2021 – Mar 2023</div><div><h3>Programme Executive Committee</h3><p class="org">Sunway Buddhist Society</p><p>Organised club gatherings, was the contact between guest speakers and the society, and wrote event proposals and reports.</p></div></div>
  <div class="act"><div class="when">Jan 2017 – Jul 2018</div><div><h3>Vice President</h3><p class="org">Wesley Methodist Netball Club</p><p>Led the team into the MSSD competition and planned its training routine.</p></div></div>
+ <div class="act"><div class="when">Ongoing</div><div><h3>Badminton, Avacado BC</h3><p class="org">Two sisters, one team, in the UK and Malaysia</p><p>Outside work I play team badminton. I built a small site that tracks our games and photos: <a class="inline" href="https://szeying-code.github.io/badminton/index.html" target="_blank" rel="noopener noreferrer">UK page</a> · <a class="inline" href="https://szeying-code.github.io/badminton/kl.html" target="_blank" rel="noopener noreferrer">Malaysia page</a>.</p></div></div>
 </div></div></section>
 
 <section id="contact" class="contact"><div class="wrap">
