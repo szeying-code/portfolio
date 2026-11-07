@@ -19,3 +19,4 @@ Until `profile.jpg` exists, the About section shows your initials.
 ## Research and hobby sections
 - Research (in `index.html`): results from the MSc dissertation, with links that open the GitHub repo, the dissertation PDF and the slides PDF in a new tab. To change a number, edit the text and the `width:` values in the coverage chart.
 - Activities: the "Badminton, Avacado BC" entry links to the two badminton pages.
+- Projects: Oceanus Folk visualisation coursework (`assets/oceanus-rising-stars.png`) and Time Series Modelling & Forecasting (`assets/time-series-forecasting.svg`), each linking to its GitHub repository.
