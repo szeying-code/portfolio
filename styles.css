@@ -123,3 +123,4 @@ button.btn{font-family:var(--sans);cursor:pointer;background:none}
 .research .links{margin-top:4px}
 a.inline{color:var(--teal);font-weight:600;text-underline-offset:3px}
 @media(max-width:860px){.stats{grid-template-columns:1fr 1fr}.cov-row{grid-template-columns:1fr;gap:4px}}
+
