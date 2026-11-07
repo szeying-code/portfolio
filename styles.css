@@ -124,3 +124,12 @@ button.btn{font-family:var(--sans);cursor:pointer;background:none}
 a.inline{color:var(--teal);font-weight:600;text-underline-offset:3px}
 @media(max-width:860px){.stats{grid-template-columns:1fr 1fr}.cov-row{grid-template-columns:1fr;gap:4px}}
 
+
+/* projects */
+.proj{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:28px;align-items:start}
+.proj-img{display:block;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff}
+.proj-img img{display:block;width:100%;height:auto}
+.proj .btn{color:var(--ink);border-color:var(--teal)}
+.proj .btn.p{background:var(--ink);border-color:var(--ink);color:#fff}
+.proj .links{margin-top:18px}
+@media(max-width:860px){.proj{grid-template-columns:1fr}}
