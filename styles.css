@@ -134,3 +134,6 @@ a.inline{color:var(--teal);font-weight:600;text-underline-offset:3px}
 .proj .btn.p{background:var(--ink);border-color:var(--ink);color:#fff}
 .proj .links{margin-top:18px}
 @media(max-width:860px){.project-list{gap:38px}.proj{grid-template-columns:1fr}.proj-img{max-width:520px}}
+
+/* tighter menu on medium screens (8 menu links) */
+@media (min-width: 861px) and (max-width: 1100px) { nav { gap: 16px; font-size: 13px; } }
